@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;
+800&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Royal pelargonium</title>
+
+    <style>
+      .background {
+        background: linear-gradient(270deg, #ddb5da 15%, #c739b9 85%);
+        font-family: Montserrat, Arial, sans-serif;
+      }
+      .description {
+        text-align: center;
+      }
+      .title {
+        font-size: 60px;
+        color: #5e0c55;
+        margin: 0;
+        padding-top: 24px;
+        padding-bottom: 16px;
+      }
+      .title-secondary {
+        font-size: 24px;
+        color: white;
+        width: 800px;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        border-radius: 16px;
+        padding: 16px;
+      }
+      .name {
+        color: #9e068a;
+        font-size: 30px;
+      }
+      .main-img {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 600px;
+      }
+      .text {
+        width: 800px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.4;
+      }
+      .wiki {
+        text-align: left;
+        margin-left: 280px;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 44px;
+      }
+      .wikipedia {
+        font-weight: 600;
+        font-size: 24px;
+      }
+      .photo {
+        width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .main-button {
+        display: block;
+        margin: 52px auto;
+        padding: 16px 16px;
+        width: 800px;
+        font-size: 44px;
+        color: #fffefe;
+        background: #790f6e;
+        border: 1px solid #fff;
+        border-radius: 16px;
+        transition: opacity 150ms ease;
+        box-shadow: 0 1px 20px rgba(0, 0, 0, 0.8);
+      }
+      .main-button:hover,
+      .main-button:focus {
+        cursor: pointer;
+        color: #fff;
+        background: #46063f;
+        border: 2px solid #fff;
+      }
+      .footer {
+        text-align: center;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <div class="description">
+      <h1 class="title">Royal pelargonium</h1>
+      <h2 class="title-secondary">
+        Any flowers are beautiful, but <br />
+        the <span class="name">royal pelargonium</span> is<br />
+        especially mesmerizing with its extraordinary bright beauty
+      </h2>
+      <img
+        class="main-img"
+        src="https://img.ukr.bio/data/articles/img/5676/esli_korolevskaya_pelargoniya_ne_cvetet_1.jpg"
+        alt="Royal pelargonium"
+      />
+      <p class="text">
+        <strong>Royal geranium</strong> or <strong>pelargonium</strong> blooms
+        unusually beautifully and fully justifies the word <em>"royal"</em> in
+        its name. Large flowers with wavy edges in bright colors attract her
+        among other flowering plants and attract the eye. Beautiful and its
+        jagged rough leaves.<br />
+
+        Pelargonium grows in South America. It was brought to Europe in the 18th
+        century, and since then many new varieties have been bred by
+        breeders.<br />
+        Over the past few decades, many varieties of this flower have been bred,
+        which have a different shape and bloom with multi-colored flowers. There
+        are also varieties with variegated, pale red and white-pink petals.
+        Everyone will be able to choose for themselves a shade to their own
+        taste. Flowers often have a double shape, and the petals themselves are
+        corrugated, and sometimes wavy. The plant has large rough leaves with
+        notches. But some newly bred varieties have small leaves and flowers.
+      </p>
+      <p class="wiki">
+        Read more at
+        <a
+          class="wikipedia"
+          href="https://en.wikipedia.org/wiki/Pelargonium"
+          target="_blank"
+          >Wikipedia</a
+        >
+      </p>
+    </div>
+    <div class="photo">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-8OAwiXbbKVKVphiQrsDT6B2OLHC-XXQ8hIrGNWcfDrIXX-RCbAgtIqXsgpolisNH-To&usqp=CAU"
+        alt="Royal pelargonium"
+        width="250px"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL3WJ2MUcVAhEqxl3E5Jg8elrRWxt46JTm16UhIVCZuhlRub4WpLVKO9JKPLyPL1wGGBw&usqp=CAU"
+        alt="Royal pelargonium"
+        width="250px"
+      />
+      <img
+        src="https://www.flowerslove.com.ua/img/product/20110125132012.jpg"
+        alt="Royal pelargonium"
+        width="250px"
+      />
+    </div>
+    <button class="main-button">Let's grow pelargoniums together!</button>
+    <hr />
+    <p class="footer">Coded by <strong> Diana Nozdrina</strong></p>
+    <script>
+      function button_click() {
+        let your_name = prompt("What is your name?");
+        let email = prompt("What is yourn email?");
+        let question = prompt("Do you like Royal pelargonium?");
+        if (question === "yes" || question === "Yes" || question === "+") {
+          alert(
+            your_name +
+              ", go to the flower shop and buy the Royal pelargonium! 🌺"
+          );
+        } else {
+          alert(
+            your_name +
+              ", I'm sorry, you don't understand what you're missing 😢"
+          );
+        }
+      }
+      let element = document.querySelector("button");
+      element.addEventListener("click", button_click);
+    </script>
+  </body>
+</html>
